@@ -75,15 +75,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """                   
-Hello there, I'm [𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓](https://telegra.ph/file/581295fcf392bb13dd0d6.jpg)
+Hello there, I'm [KAELA 𝐁𝐎𝐓](https://telegra.ph/file/007b0c4d312abfe83e43a.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 ✪ Make sure you read *𝙸𝙽𝙵𝙾* Section Below ✪ \n
-𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/SAMEER_795)
+𝐌𝐘 CREATOR - [MRKAHNO](t.me/mrkahno)
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝙰𝙳𝙳 𝚂𝙰𝚅𝙰𝙶𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/savage_manager_bot?startgroup=true"),
+            text="😍 𝙰𝙳𝙳 KAELA 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😍", url="t.me/kaelagroupbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💞𝙸𝙽𝙵𝙾💞", callback_data="shasa_"),
@@ -98,14 +98,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-`𝙷𝙸, 𝙸 𝙰𝙼` [𝚂𝙰𝚅𝙰𝙶𝙴 𝙱𝙾𝚃❤️](https://telegra.ph/file/52a4f3628ea7975119b5c.jpg)
+`𝙷𝙸, 𝙸 𝙰𝙼` [KAELA 𝙱𝙾𝚃❤️](https://telegra.ph/file/4cb5ca30ce7435b8f1039.jpg)
 `𝙸 𝙰𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙿𝙴𝚁𝙵𝙴𝙲𝚃𝙻𝚈..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/52a4f3628ea7975119b5c.jpg"
+shasa_IMG = "https://telegra.ph/file/491cc72e8d0697485a783.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @SAMEER_795 \
+ You can support the project via by contacting @Mrkahno \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
