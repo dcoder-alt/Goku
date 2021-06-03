@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/ShasaBot
-RUN git clone -b shiken https://github.com/MdNoor786/ShasaBot /root/ShasaBot
+RUN git clone -b shiken https://github.com/Youngchris150/Kaela /root/ShasaBot
 WORKDIR /root/ShasaBot
 
 #Copy config file to /root/ShasaBott/ShasaBot
