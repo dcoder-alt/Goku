@@ -1,5 +1,5 @@
 {
-      "name": "savage Bot",
+      "name": "Kaela Bot",
       "description": "An Anime Theme Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "Shasa"
       ],
     
-   "logo":    "https://telegra.ph/file/c3254e92e7672b773f942.jpg",  
-   "repository": "https://github.com/Mdnoor786/ShasaBot",
+   "logo":    "https://telegra.ph/file/007b0c4d312abfe83e43a.jpg",  
+   "repository": "https://github.com/Youngchris150/Kaela",
    "addons": [
           {
          "options": {
