@@ -83,7 +83,7 @@ I am an anime Themed Group Managing Bot and I will help in managing your group\n
 buttons = [
     [
         InlineKeyboardButton(
-            text="😍 𝙰𝙳𝙳 KAELA 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😍", url="t.me/kaelagroupbot?startgroup=true"),
+            text="😍 𝙰𝙳𝙳 KAELA 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😍", url="t.me/Kaelagrpbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💞𝙸𝙽𝙵𝙾💞", callback_data="shasa_"),
