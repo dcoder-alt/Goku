@@ -75,15 +75,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """                   
-Hello there, I'm [KAELA 𝐁𝐎𝐓](https://telegra.ph/file/007b0c4d312abfe83e43a.jpg)
+Hello there, I'm [GOKU 𝐁𝐎𝐓](https://telegra.ph/file/007b0c4d312abfe83e43a.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 ✪ Make sure you read *𝙸𝙽𝙵𝙾* Section Below ✪ \n
-𝐌𝐘 CREATOR - [MRKAHNO](t.me/mrkahno)
+𝐌𝐘 CREATOR - [Mayowa](t.me/mrkahno)
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="😍 𝙰𝙳𝙳 KAELA 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😍", url="t.me/Kaelagrpbot?startgroup=true"),
+            text="😍 𝙰𝙳𝙳 GOKU 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 😍", url="t.me/Kaelagrpbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💞𝙸𝙽𝙵𝙾💞", callback_data="shasa_"),
@@ -98,7 +98,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`𝙷𝙸, 𝙸 𝙰𝙼` [KAELA 𝙱𝙾𝚃❤️](https://telegra.ph/file/4cb5ca30ce7435b8f1039.jpg)
+`𝙷𝙸, 𝙸 𝙰𝙼` [GOKU 𝙱𝙾𝚃❤️](https://telegra.ph/file/4cb5ca30ce7435b8f1039.jpg)
 `𝙸 𝙰𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙿𝙴𝚁𝙵𝙴𝙲𝚃𝙻𝚈..`"""
 
 
@@ -352,7 +352,7 @@ def shasa_about_callback(update, context):
     query = update.callback_query
     if query.data == "shasa_":
         query.message.edit_text(
-            text="""ℹ️ 𝙷𝙸 𝙸 𝙰𝙼 KAELA 𝙱𝙾𝚃 ..𝙸 𝙲𝙰𝙽 𝙴𝙰𝚂𝙸𝙻𝚈 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙾𝚄𝙿.
+            text="""ℹ️ 𝙷𝙸 𝙸 𝙰𝙼 GOKU 𝙱𝙾𝚃 ..𝙸 𝙲𝙰𝙽 𝙴𝙰𝚂𝙸𝙻𝚈 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙾𝚄𝙿.
              ❍ 𝙸 𝙲𝙰𝙽 𝚁𝙴𝚂𝚃𝚁𝙸𝙲𝚃 𝚄𝚂𝙴𝚁𝚂.
              ❍ 𝙸 𝙲𝙰𝙽 𝙶𝚁𝙴𝙴𝚃 𝚄𝚂𝙴𝚁𝚂 𝚆𝙸𝚃𝙷 𝙲𝚄𝚂𝚃𝙾𝙼𝙸𝚉𝙰𝙱𝙻𝙴 𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝙼𝚂𝙶 𝙰𝙽𝙳 𝙴𝚅𝙴𝙽 𝚂𝙴𝚃 𝙰 𝙶𝚁𝙾𝚄𝙿'𝚂 𝚁𝚄𝙻𝙴𝚂.
              ❍ 𝙸 𝙷𝙰𝚅𝙴 𝙰𝙽 𝙰𝙳𝚅𝙰𝙽𝚅𝙴𝙳 𝙰𝙽𝚃𝙸𝙵𝙻𝙾𝙾𝙳 𝚂𝚈𝚂𝚃𝙾𝙼.
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Kaela bot*
+            text=""" Hi..🤗 I'm *GOKU bot*
                🙂 .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
